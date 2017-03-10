@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Captain Quack</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="Captain Quack" class="header__logo">
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1>¡Ay caramba!</h1>
+			
+			<form method="post" action="#" class="form">
+				<label class="form-block">
+					<input type="text" name="firstname" class="form-block__text">
+					<span class="form-block__label-text">Имя</span>
+				</label>
+				<label class="form-block form-block--lastname">
+					<input type="text" name="lastname" class="form-block__text">
+					<span class="form-block__label-text">Фамилия</span>
+				</label>
+				<label class="form-block form-block--email">
+					<input type="email" name="email" class="form-block__text">
+					<span class="form-block__label-text">Email</span>
+				</label>
+				<div class="form-block form-block--count">
+					<label class="form-count">
+						<input type="checkbox" name="uno" value="uno" class="form-count__checkbox">
+						<span class="form-count__text">Uno</span>
+					</label>
+					<label class="form-count">
+						<input type="checkbox" name="dos" value="dos" class="form-count__checkbox">
+						<span class="form-count__text">Dos</span>
+					</label>
+					<label class="form-count">
+						<input type="checkbox" name="tres" value="tres" class="form-count__checkbox">
+						<span class="form-count__text">Tres</span>
+					</label>
+				</div>
+				<div class="form-block form-block--switch">
+					<label class="form-switch">
+						<input type="checkbox" name="onme" value="onme" class="form-switch__checkbox">
+						<span class="form-switch__text">Включи меня</span>
+					</label>
+					<label class="form-switch">
+						<input type="checkbox" name="offme" value="offme" class="form-switch__checkbox">
+						<span class="form-switch__text">Выключи меня</span>
+					</label>
+				</div>
+				<button type="submit" value="Send" class="form-block form-block--button">
+					<span class="form-block__button-text">Отправить</span>
+				</button>
+			</form>
+
+			<section class="auto">
+				<h2>Автомобили в наличии</h2>
+
+				<div class="table">
+
+					<div class="table__header">
+						<div class="table__cell table__cell--name">Название</div>
+						<div class="table__cell table__cell--year">Год</div>
+						<div class="table__cell table__cell--color">Цвет</div>
+						<div class="table__cell table__cell--status">Статус</div>
+						<div class="table__cell table__cell--price">Цена</div>
+						<div class="table__cell table__cell--request""></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">
+							1.6 MT Ambiente 85&nbsp;л.с. МКПП
+							<p class="table__description">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+						</div>
+						<div class="table__cell table__cell--year">2012</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--black"></span></div>
+						<div class="table__cell table__cell--status">Ожидается</div>
+						<div class="table__cell table__cell--price">1 689 000 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">1.6 MT Ambiente Plus 105&nbsp;л.с. МКПП</div>
+						<div class="table__cell table__cell--year">2012</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--white"></span></div>
+						<div class="table__cell table__cell--status">Ожидается</div>
+						<div class="table__cell table__cell--price">1 189 900 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">1.6 MT Trend 105&nbsp;л.с. МКПП</div>
+						<div class="table__cell table__cell--year">2012</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--black"></span></div>
+						<div class="table__cell table__cell--status">В наличии</div>
+						<div class="table__cell table__cell--price">1 459 000 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">1.6 PowerShift Trend Sport 105&nbsp;л.с. АКПП</div>
+						<div class="table__cell table__cell--year">2012</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--gray"></span></div>
+						<div class="table__cell table__cell--status">Ожидается</div>
+						<div class="table__cell table__cell--price">1 459 000 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">2.0 MT Trend Sport 150&nbsp;л.с. МКПП</div>
+						<div class="table__cell table__cell--year">2012</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--red"></span></div>
+						<div class="table__cell table__cell--status">Ожидается</div>
+						<div class="table__cell table__cell--price">786 000 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+					<div class="table__row">
+						<div class="table__cell table__cell--name">
+							2.0 PowerShift Trend Sport 150&nbsp;л.с. АКПП
+							<p class="table__description">+ доп. опция «Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+						</div>
+						<div class="table__cell table__cell--year">2013</div>
+						<div class="table__cell table__cell--color"><span class="table__color table__color--green"></span></div>
+						<div class="table__cell table__cell--status">Нет в наличии</div>
+						<div class="table__cell table__cell--price">821 000 руб.</div>
+						<div class="table__cell table__cell--request"><a href="#" class="table__link">Запрос</a></div>
+					</div>
+
+				</div>
+			</section>
+
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<span class="footer__copyright">&copy; 2015 Captain Quack</span><br>
+			Десница тысячелетия и моллюск!
+		</div>
+	</footer>
+
+</body>
+</html>
